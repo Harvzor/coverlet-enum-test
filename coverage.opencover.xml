@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="2" visitedMethods="0" numMethods="2" />
+  <Modules>
+    <Module hash="CF7BF40D-A7D9-4F13-AF48-FCA68FFC19AD">
+      <ModulePath>Source.dll</ModulePath>
+      <ModuleTime>2019-06-10T04:48:18</ModuleTime>
+      <ModuleName>Source</ModuleName>
+      <Files>
+        <File uid="1" fullPath="D:\Dev\Sites\DotNetCore\coverlet-enum-test\Source\Program.cs" />
+        <File uid="2" fullPath="D:\Dev\Sites\DotNetCore\coverlet-enum-test\Source\SimpleMethod.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="1" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>BaseService.Program</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="1" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void BaseService.Program::Main(System.String[])</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="6" ordinal="0" sl="6" sc="1" el="6" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" upsid="8" ordinal="1" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="6" ec="1" el="8" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="1" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>BaseService.SimpleClass</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="1" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void BaseService.SimpleClass::SimpleMethod()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="10" ordinal="1" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="8" ec="1" el="10" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
