@@ -5,9 +5,9 @@ When used to generate a report with an EntityFramework enum that uses a default 
 How to test:
 
 1. install coverlet (v1.4.1.0)
-- clone this repo
-- run `dotnet build` in root (v2.1.505 of dotnet tool)
-- run `coverlet ./Tests/bin/Debug/netcoreapp2.1/Tests.dll --target "dotnet" --targetargs "test ./Tests/Tests.csproj --no-build" --format opencover`
+2. clone this repo
+3. run `dotnet build` in root (v2.1.505 of dotnet tool)
+4. run `coverlet ./Tests/bin/Debug/netcoreapp2.1/Tests.dll --target "dotnet" --targetargs "test ./Tests/Tests.csproj --no-build" --format opencover`
 
 Expected output:
 
